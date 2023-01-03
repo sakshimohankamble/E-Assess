@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:background="#A3B2EBF2"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/txttop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="Topic name"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtstud1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="60dp"
+            android:text="stud1"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtstud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/txtstud3"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="-3dp"
+            android:text="stud2"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtstud3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="stud3"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

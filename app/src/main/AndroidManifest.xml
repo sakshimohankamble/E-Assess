@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_assess">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EAssess"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".recyclemarks"></activity>
+        <activity android:name=".Choosestudent" />
+        <activity android:name=".Ese" />
+        <activity android:name=".Mse" />
+        <activity android:name=".Ise2" />
+        <activity android:name=".Assignmarksise" />
+        <activity
+            android:name=".chooseExam"
+            android:parentActivityName=".navActivity" />
+        <activity android:name=".GroupsShowAdminViewModel" />
+        <activity
+            android:name=".ProfileAdmin"
+            android:parentActivityName=".bottomActivity" />
+        <activity
+            android:name=".FeedbackAdmin"
+            android:parentActivityName=".bottomActivity" />
+        <activity
+            android:name=".addStudent"
+            android:parentActivityName=".navActivity" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".bottomActivity"
+            android:label="@string/title_activity_bottom" />
+        <activity
+            android:name=".FeedbackAct"
+            android:label="Feedback"
+            android:parentActivityName=".navActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".choiceActivity" />
+        <activity android:name=".choiceActivity" />
+        <activity
+            android:name=".navActivity"
+            android:label="@string/title_activity_main3"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/Theme.EAssess.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".choiceActivity"
+            android:theme="@style/Theme.EAssess" />
+        <activity
+            android:name=".splashscreenActivity"
+            android:theme="@style/Theme.EAssess.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
